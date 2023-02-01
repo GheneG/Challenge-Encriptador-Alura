@@ -1,0 +1,125 @@
+
+*{
+    
+    background: #111111;
+    font-family: 'Lato', sans-serif;    
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 20px;
+    margin-left: 10px;
+    width: 7%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: aqua;
+    margin-top: 90px;
+}
+::placeholder{
+    color: aqua;
+    text-align: center;
+    padding-top: 30px;
+}
+.text-area:focus{
+    outline: none;
+}
+.mensaje{
+    background: #333333;
+    background-image: url("imagenes/Muñeco-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 20px;
+    color: aqua;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    width: 400px;
+    height: 700px;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btn-encriptar{
+    background: #055A56;
+    border: 1px solid aqua;
+    border-radius: 25px;
+    color: aqua;
+    cursor: pointer;
+    height: 68px;
+    width: 250px;
+}
+
+.btn-desencriptar{
+    background: #2A4848;
+    border: 1px solid aqua;
+    border-radius: 25px;
+    color: aqua;
+    cursor: pointer;
+    height: 68px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.copiar{
+    border: 1px solid aqua;
+    border-radius: 25px;
+    color: aqua;
+    cursor: pointer;
+    height: 68px;
+    width: 250px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 640px;
+    display: none;
+}
+
+.exclamacion{
+    float: left;
+}
+
+.informacion{
+    color: white;
+    font-size: 14px;
+}
+
+/*Pendiente continuar Respondive*/
+
+/* @media screen and (max-width:768px) {
+    main {
+        display: block;
+        margin-right: 80px;
+    }
+    .mensaje{
+        background-image: none;
+        width: 80%;
+        margin: 20px;
+        padding: 0%;
+        height: 200px;
+    }
+    .text-area{
+        width: auto;
+    }
+    .copiar {
+        margin-top: 250px;
+    }
+
+} */
