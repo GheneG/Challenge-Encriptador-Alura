@@ -9,6 +9,7 @@
     line-height: 150%;
 }
 .logo{
+    float: left;
     padding-top: 20px;
     margin-left: 10px;
     width: 7%;

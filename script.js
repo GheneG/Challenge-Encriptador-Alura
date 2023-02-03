@@ -21,11 +21,14 @@ function validarTexto(){
 }
 
 function btnEncriptar(){
+    if(!validarTexto()) {
     const textoEncriptado = encriptar(textArea.value)
     mensaje.value = textoEncriptado;
     textArea.value = "";
     mensaje.style.backgroundImage = "none";
     copia.style.display = "block"
+    }
+
 }
 
 function encriptar(stringEncriptada){
