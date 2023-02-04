@@ -11,10 +11,10 @@ const copia = document.querySelector(".copiar");
 
 function validarTexto(){
     let textoEscrito = document.querySelector(".text-area").value;
-    let validar = textoEscrito.match(/^[a-z]*$/);
+    let validar = textoEscrito.match(/[a-z]/);
 
     if(!validar || validar === 0) {
-        alert("Introduce solo letras minúsculas y sin acentos")
+        alert("Introduce solo letras minúsculas y sin acentos");
         location.reload();
         return true;
     }
